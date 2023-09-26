@@ -1,7 +1,7 @@
 function changeBg(bg,title) {
     const banner = document.querySelector('.banner');
     const contents = document.querySelectorAll('.content');
-    banner.style.background = `url("../images/${bg}")`;
+    banner.style.background = `url("./images/${bg}")`;
     banner.style.backgroundSize = '100% 100%';
     banner.style.backgroundRepeat = 'no-repeat';
     banner.style.backgroundPosition = 'center';

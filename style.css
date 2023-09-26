@@ -26,6 +26,7 @@ header {
     align-items: center;
     padding: 30px 100px;
     z-index: 10;
+    overflow: auto;
 }
 
 .logo {
